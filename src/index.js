@@ -13,6 +13,8 @@ import App from './Route';
 import Api from './Api';
 import Array from './Array';
 import Hooks from './Hooks';
+import Count from './Count';
+import Text from './Text';
 
 
 ReactDOM.render(
@@ -27,7 +29,9 @@ ReactDOM.render(
     {/* <App/> */}
     {/* <Api/> */}
     {/* <Array/>     */}
-    <Hooks/>
+    {/* <Hooks/> */}
+    <Count/>
+    <Text/>
   </React.StrictMode>,
   document.getElementById('root')
 );
